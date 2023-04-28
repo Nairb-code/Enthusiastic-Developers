@@ -1,0 +1,30 @@
+
+@media (min-width: 200px) {
+  .resp {
+    display: inline;
+    }
+   .contresp {
+    max-width: 950px;
+    margin: 0 auto;
+   }
+   .border {
+    border: unset;
+	}
+	.rounded {
+    border-radius: unset;
+	}
+	.w-50 {
+		width: unset;
+	}
+}
+
+
+@media (min-width: 1024px) {
+  .resp {
+    display: flex;
+    }
+   .contresp {
+    max-width: 1024px;
+   }
+}
+
